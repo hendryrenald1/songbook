@@ -1,0 +1,203 @@
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Sawarabi Mincho', sans-serif;
+    font-size: 1.1em;
+    color: white;
+}
+
+pre {
+    background-color: #f5deb3;
+    color: black;
+    padding: 20px;
+}
+
+.siteHeader {
+  color: black;
+  font-family: 'Indie Flower';
+  font-size: 6.0em;
+  margin: 0px;
+}
+
+.dark {
+    background-color: rgba(0,0,0,0.8);
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.adminPanel {
+    margin-top: 0px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.supercontainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: -8px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.col {
+    min-width: 800px;
+    width:80%;
+
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.content-side {
+    margin-right: 20px;
+    width: 500px;
+}
+
+.content-main {
+    width: 100%;
+    padding: 20px 50px;
+}
+
+.title img {
+    width: 100%;
+}
+
+.sidebar {
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.frontimage {
+    width: 60%;
+    display: block;
+    margin: 10px auto 50px auto;
+    border: 3px solid black;
+    border-radius: 25px;
+}
+
+.frontpage-text {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.frontpage-text span {
+    position: relative;
+    left: 8pc;
+}
+
+.songlink:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.selectedsong {
+    font-weight: bold;
+}
+
+.react-icons {
+    display: inline-block;
+    text-align: center;
+    border: 1px solid green;
+    height: 100%;
+}
+
+.search {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.searchBasic {
+    display: flex;
+    justify-content: right;
+}
+
+.searchAdvanced {
+    margin-top:10px;
+}
+
+.searchAdvanced hr {
+    margin-top: 15px;
+}
+
+.login {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.login div {
+    padding: 20px 50px;
+}
+
+.login div input {
+    margin-left: 15px;
+}
+
+.songInput textarea {
+    display: block;
+    box-sizing: border-box;
+    background-color: #f5deb3;
+    color: black;
+    padding: 20px;
+    width: 100%;
+}
+
+.inputTable {
+    display: flex;
+    flex-direction: row;
+}
+
+.inputTableCol {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputTableColRight {
+    flex-grow: 1;
+}
+
+.inputTableRow {
+    height: 1.5em;
+    margin: 5px;
+}
+
+.inputTable input[type=text] {
+    width: 100%
+}
+
+/*** Admin Panel */
+
+.adminPanel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px;
+}
+
+.ap-left, .ap-right {
+    padding: 10px 50px;
+}
+
+.adminButton {
+    float: left;
+    margin: 0px 20px;
+}
+
+.adminButton:hover {
+    font-weight: bold;
+    cursor: pointer;
+
+}
